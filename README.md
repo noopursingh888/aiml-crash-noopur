@@ -107,3 +107,19 @@ Concepts used:
 
 File:
 - grade_classifier.py
+
+## Q8 - Number Guessing Game
+
+This task creates a guessing game where:
+- Computer selects random number
+- User keeps guessing
+- Program gives hints
+
+Concepts used:
+- while loops
+- random module
+- Game state management
+- Conditional statements
+
+File:
+- guessing_game.py

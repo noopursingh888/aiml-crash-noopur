@@ -30,3 +30,19 @@ This task prints skills with numbering and total count using:
 
 File:
 - skills_counter.py
+
+## Q3 - Even or Odd Checker
+
+This task checks whether a number is:
+- Even
+- Odd
+- Zero
+
+Concepts used:
+- if / elif / else
+- modulo operator (%)
+- user input
+- try / except error handling
+
+File:
+- even_odd.py

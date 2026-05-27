@@ -46,3 +46,19 @@ Concepts used:
 
 File:
 - even_odd.py
+
+## Q4 - Tip Calculator
+
+This task calculates:
+- Tip amount
+- Total bill amount
+
+Concepts used:
+- Functions
+- Parameters
+- Return values
+- Dictionaries
+- Float math
+
+File:
+- tip_calculator.py

@@ -1,9 +1,12 @@
-# AIML Crash Course
+# AIML Crash Course - Noopur Singh
+
+THIS REPOSITORY CONTAINS PYTHON PRACTICE TASKS COMPLETED DURING AI/ML COURSE THAT I DID UNDER 45 DAY INDUSTRIAL TRAINING
 
 ## Q1 - Extended Intro
 
 This project is part of my AIML crash course tasks.
 
+Prints a personal intro
 ### Concepts Used
 - Python variables
 - Dictionaries

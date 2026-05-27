@@ -76,3 +76,21 @@ Concepts used:
 
 File:
 - word_frequency.py
+
+## Q6 - Simple Calculator
+
+This task performs:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+Concepts used:
+- Functions
+- User input
+- Dictionaries
+- Conditional dispatch
+- Division by zero handling
+
+File:
+- calculator.py

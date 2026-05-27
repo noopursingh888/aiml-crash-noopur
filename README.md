@@ -62,3 +62,17 @@ Concepts used:
 
 File:
 - tip_calculator.py
+
+## Q5 - Word Frequency
+
+This task counts how many times each word appears in a sentence.
+
+Concepts used:
+- Strings
+- split()
+- Dictionaries
+- Loops
+- Counting patterns
+
+File:
+- word_frequency.py

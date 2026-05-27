@@ -123,3 +123,17 @@ Concepts used:
 
 File:
 - guessing_game.py
+
+## Q9 - Mini Contact Book
+
+This task creates a mini contact searching system.
+
+Concepts used:
+- Lists
+- Dictionaries
+- Functions
+- Searching
+- Case-insensitive comparison
+
+File:
+- contact_book.py

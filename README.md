@@ -94,3 +94,16 @@ Concepts used:
 
 File:
 - calculator.py
+
+## Q7 - Grade Classifier
+
+This task classifies student grades based on scores.
+
+Concepts used:
+- Lists of dictionaries
+- Functions
+- Conditional statements
+- Sorting with lambda
+
+File:
+- grade_classifier.py

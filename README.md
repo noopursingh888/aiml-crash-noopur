@@ -19,3 +19,14 @@ The program prints a short introduction including:
 - City
 - Favorite subject
 - Target role
+---
+
+## Q2 - Skills Counter
+This task prints skills with numbering and total count using:
+- Lists
+- for loops
+- enumerate()
+- len()
+
+File:
+- skills_counter.py

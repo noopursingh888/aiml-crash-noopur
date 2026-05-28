@@ -1,6 +1,6 @@
 name = "Noopur"
 age = 19
-city = "lucknow"
+city = "goa"
 favorite_subject = "oops"
 target_role = "Data Engineer"
 student = {

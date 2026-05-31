@@ -161,3 +161,15 @@ Concepts used:
 
 File:
 - student_report.py
+
+## Q2 - List Comprehension Drills
+
+This task demonstrates:
+- List comprehensions
+- Dict comprehensions
+- Set comprehensions
+- Data transformation
+- Flattening nested lists
+
+File:
+- comprehension_drills.py

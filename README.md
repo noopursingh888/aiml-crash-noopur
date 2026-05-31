@@ -205,3 +205,20 @@ Operations:
 
 File:
 - typed_calculator.py
+
+## Q5 - Inheritance Library System
+
+This task demonstrates:
+- Inheritance
+- Method overriding
+- super()
+- Polymorphism
+- isinstance()
+
+Classes:
+- LibraryItem
+- Book
+- EBook
+
+File:
+- library_system.py

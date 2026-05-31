@@ -140,3 +140,24 @@ Concepts used:
 
 File:
 - contact_book.py
+
+DAY-4 TAKS
+## Q1 - Student Report Class
+
+This task creates a Student class using OOP concepts.
+
+Features:
+- Average calculation
+- Grade classification
+- Formatted report cards
+
+Concepts used:
+- Classes
+- Objects
+- Methods
+- __init__
+- __str__
+- Class variables
+
+File:
+- student_report.py

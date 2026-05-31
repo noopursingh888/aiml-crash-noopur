@@ -222,3 +222,20 @@ Classes:
 
 File:
 - library_system.py
+
+## Q6 - JSON Config Manager
+
+This task demonstrates:
+- JSON file handling
+- Reading and writing JSON
+- Updating configuration data
+- Type hints
+
+Functions:
+- save_config()
+- load_config()
+- update_config()
+
+Files:
+- config_manager.py
+- config.json

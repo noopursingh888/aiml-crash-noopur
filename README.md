@@ -173,3 +173,16 @@ This task demonstrates:
 
 File:
 - comprehension_drills.py
+
+## Q3 - File I/O Student Records
+
+This task demonstrates:
+- CSV file creation
+- CSV reading/writing
+- DictReader and DictWriter
+- Average and grade calculation
+
+Files:
+- file_records.py
+- students.csv
+- results.csv

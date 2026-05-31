@@ -186,3 +186,22 @@ Files:
 - file_records.py
 - students.csv
 - results.csv
+
+## Q4 - Type Hinted Calculator
+
+This task upgrades the calculator using:
+- Type hints
+- Optional return types
+- Docstrings
+- Additional operations
+
+Operations:
+- add
+- subtract
+- multiply
+- divide
+- power
+- modulo
+
+File:
+- typed_calculator.py

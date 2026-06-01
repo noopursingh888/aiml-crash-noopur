@@ -274,3 +274,26 @@ Methods implemented:
 
 File:
 - fraction_class.py
+
+## Q9 - Mini Inventory System
+
+This task demonstrates:
+- OOP
+- CSV file handling
+- Searching
+- Lists of objects
+
+Classes:
+- Product
+- Inventory
+
+Features:
+- add_product()
+- total_value()
+- find_product()
+- save_to_csv()
+- load_from_csv()
+
+Files:
+- inventory.py
+- inventory.csv

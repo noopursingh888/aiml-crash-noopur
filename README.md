@@ -239,3 +239,21 @@ Functions:
 Files:
 - config_manager.py
 - config.json
+
+## Q7 - Pandas Dataset Exploration
+
+This task demonstrates:
+- Pandas DataFrames
+- Filtering
+- Grouping
+- Aggregation
+- Sorting
+
+Operations:
+- mean()
+- groupby()
+- filtering
+- nlargest()
+
+File:
+- pandas_explore.py

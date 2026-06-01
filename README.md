@@ -257,3 +257,20 @@ Operations:
 
 File:
 - pandas_explore.py
+
+## Q8 - Fraction Class
+
+This task demonstrates:
+- Dunder methods
+- Operator overloading
+- OOP concepts
+- Fraction arithmetic
+
+Methods implemented:
+- __str__()
+- __add__()
+- __eq__()
+- __lt__()
+
+File:
+- fraction_class.py

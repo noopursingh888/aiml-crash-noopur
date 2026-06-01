@@ -1,299 +1,324 @@
 # AIML Crash Course - Noopur Singh
+# Python Practice Repository — Day 1 to Day 5
 
-THIS REPOSITORY CONTAINS PYTHON PRACTICE TASKS COMPLETED DURING AI/ML COURSE THAT I DID UNDER 45 DAY INDUSTRIAL TRAINING
+This repository contains my Python practice tasks from Day 1 to Day 5 of the AI/ML crash course.  
+It includes hands-on work on Python fundamentals, OOP, file handling, Pandas, CSV/JSON operations, and Git & GitHub workflow.  
+Each task is organized into separate Python files with clean structure and comments.
 
-## Q1 - Extended Intro
-
-This project is part of my AIML crash course tasks.
-
-Prints a personal intro
-### Concepts Used
-- Python variables
-- Dictionaries
-- f-strings
-- String methods
-
-### File
-- intro.py
-
-### Output
-The program prints a short introduction including:
-- Name
-- City
-- Favorite subject
-- Target role
 ---
 
-## Q2 - Skills Counter
-This task prints skills with numbering and total count using:
-- Lists
-- for loops
-- enumerate()
-- len()
+# Technologies Used
 
-File:
-- skills_counter.py
+* Python 3
+* Pandas
+* CSV Module
+* JSON Module
+* Object-Oriented Programming (OOP)
+* File Handling
+* Git & GitHub
+* Virtual Environment (venv)
 
-## Q3 - Even or Odd Checker
+---
 
-This task checks whether a number is:
-- Even
-- Odd
-- Zero
+# Project Structure
 
-Concepts used:
-- if / elif / else
-- modulo operator (%)
-- user input
-- try / except error handling
+```bash
+aiml-crash-noopur/
+│
+├── intro.py
+├── skills_counter.py
+├── even_odd.py
+├── tip_calculator.py
+├── word_frequency.py
+├── calculator.py
+├── grade_classifier.py
+├── guessing_game.py
+├── contact_book.py
+│
+├── student_report.py
+├── comprehension_drills.py
+├── file_records.py
+├── students.csv
+├── results.csv
+├── typed_calculator.py
+├── library_system.py
+├── config_manager.py
+├── config.json
+├── pandas_explore.py
+├── fraction_class.py
+├── inventory.py
+├── inventory.csv
+│
+├── README.md
+└── .gitignore
+```
 
-File:
-- even_odd.py
+---
 
-## Q4 - Tip Calculator
+# Day 1 & Day 2 Tasks
 
-This task calculates:
-- Tip amount
-- Total bill amount
+## 1. intro.py
 
-Concepts used:
-- Functions
-- Parameters
-- Return values
-- Dictionaries
-- Float math
+Created a self-introduction program using variables, dictionaries, and f-strings.
+Also practiced string methods like `upper()`, `lower()`, and `title()`.
 
-File:
-- tip_calculator.py
+---
 
-## Q5 - Word Frequency
+## 2. skills_counter.py
 
-This task counts how many times each word appears in a sentence.
-
-Concepts used:
-- Strings
-- split()
-- Dictionaries
-- Loops
-- Counting patterns
+Created a list of skills and displayed them using loops and numbering.
+Explored the use of `enumerate()` for cleaner iteration.
 
-File:
-- word_frequency.py
+---
 
-## Q6 - Simple Calculator
-
-This task performs:
-- Addition
-- Subtraction
-- Multiplication
-- Division
+## 3. even_odd.py
 
-Concepts used:
-- Functions
-- User input
-- Dictionaries
-- Conditional dispatch
-- Division by zero handling
-
-File:
-- calculator.py
-
-## Q7 - Grade Classifier
-
-This task classifies student grades based on scores.
-
-Concepts used:
-- Lists of dictionaries
-- Functions
-- Conditional statements
-- Sorting with lambda
-
-File:
-- grade_classifier.py
-
-## Q8 - Number Guessing Game
-
-This task creates a guessing game where:
-- Computer selects random number
-- User keeps guessing
-- Program gives hints
-
-Concepts used:
-- while loops
-- random module
-- Game state management
-- Conditional statements
-
-File:
-- guessing_game.py
-
-## Q9 - Mini Contact Book
-
-This task creates a mini contact searching system.
-
-Concepts used:
-- Lists
-- Dictionaries
-- Functions
-- Searching
-- Case-insensitive comparison
-
-File:
-- contact_book.py
-
-DAY-4 TAKS
-## Q1 - Student Report Class
-
-This task creates a Student class using OOP concepts.
-
-Features:
-- Average calculation
-- Grade classification
-- Formatted report cards
-
-Concepts used:
-- Classes
-- Objects
-- Methods
-- __init__
-- __str__
-- Class variables
-
-File:
-- student_report.py
-
-## Q2 - List Comprehension Drills
-
-This task demonstrates:
-- List comprehensions
-- Dict comprehensions
-- Set comprehensions
-- Data transformation
-- Flattening nested lists
-
-File:
-- comprehension_drills.py
-
-## Q3 - File I/O Student Records
-
-This task demonstrates:
-- CSV file creation
-- CSV reading/writing
-- DictReader and DictWriter
-- Average and grade calculation
-
-Files:
-- file_records.py
-- students.csv
-- results.csv
-
-## Q4 - Type Hinted Calculator
-
-This task upgrades the calculator using:
-- Type hints
-- Optional return types
-- Docstrings
-- Additional operations
-
-Operations:
-- add
-- subtract
-- multiply
-- divide
-- power
-- modulo
-
-File:
-- typed_calculator.py
-
-## Q5 - Inheritance Library System
-
-This task demonstrates:
-- Inheritance
-- Method overriding
-- super()
-- Polymorphism
-- isinstance()
-
-Classes:
-- LibraryItem
-- Book
-- EBook
-
-File:
-- library_system.py
-
-## Q6 - JSON Config Manager
-
-This task demonstrates:
-- JSON file handling
-- Reading and writing JSON
-- Updating configuration data
-- Type hints
-
-Functions:
-- save_config()
-- load_config()
-- update_config()
-
-Files:
-- config_manager.py
-- config.json
-
-## Q7 - Pandas Dataset Exploration
-
-This task demonstrates:
-- Pandas DataFrames
-- Filtering
-- Grouping
-- Aggregation
-- Sorting
-
-Operations:
-- mean()
-- groupby()
-- filtering
-- nlargest()
-
-File:
-- pandas_explore.py
-
-## Q8 - Fraction Class
-
-This task demonstrates:
-- Dunder methods
-- Operator overloading
-- OOP concepts
-- Fraction arithmetic
-
-Methods implemented:
-- __str__()
-- __add__()
-- __eq__()
-- __lt__()
-
-File:
-- fraction_class.py
-
-## Q9 - Mini Inventory System
-
-This task demonstrates:
-- OOP
-- CSV file handling
-- Searching
-- Lists of objects
-
-Classes:
-- Product
-- Inventory
-
-Features:
-- add_product()
-- total_value()
-- find_product()
-- save_to_csv()
-- load_from_csv()
-
-Files:
-- inventory.py
-- inventory.csv
+Built a program to check whether a number is even, odd, or zero using conditionals.
+Also handled invalid user input using `try` and `except`.
+
+---
+
+## 4. tip_calculator.py
+
+Created a function-based tip calculator using parameters and return values.
+Learned the difference between `print()` and `return`.
+
+---
+
+## 5. word_frequency.py
+
+Counted word occurrences in a sentence using dictionaries and string operations.
+Also explored the `collections.Counter` module.
+
+---
+
+## 6. calculator.py
+
+Built a basic calculator supporting add, subtract, multiply, and divide operations.
+Handled division by zero and explored function mapping using dictionaries.
+
+---
+
+## 7. grade_classifier.py
+
+Created a grading system using a list of student dictionaries and conditional rules.
+Also sorted students using `sorted()` with lambda expressions.
+
+---
+
+## 8. guessing_game.py
+
+Built a number guessing game using loops and random number generation.
+Added logic for attempts and “too high / too low” hints.
+
+---
+
+## 9. contact_book.py
+
+Created a mini contact book using lists and dictionaries.
+Implemented case-insensitive searching for contact lookup.
+
+---
+
+# Day 3, Day 4 & Day 5 Tasks
+
+## 10. student_report.py
+
+Created a Student class using OOP concepts with methods for average calculation and grade classification.
+Also implemented `__str__()` and practiced class variables.
+
+---
+
+## 11. comprehension_drills.py
+
+Solved multiple list comprehension problems including filtering, transformations, and flattening nested lists.
+Also explored dictionary and set comprehensions.
+
+---
+
+## 12. file_records.py
+
+Worked with CSV files by creating student records and generating results with grades and averages.
+Practiced both `csv.writer` and `csv.DictWriter`.
+
+### Generated Files
+
+* students.csv
+* results.csv
+
+---
+
+## 13. typed_calculator.py
+
+Built a calculator module using type hints and docstrings.
+Added power and modulo operations with proper error handling.
+
+---
+
+## 14. library_system.py
+
+Implemented inheritance using a base `LibraryItem` class and child classes `Book` and `EBook`.
+Practiced polymorphism, `super()`, and method overriding.
+
+---
+
+## 15. config_manager.py
+
+Created a JSON configuration manager to save, load, and update JSON files.
+Also explored the difference between `json.dump()` and `json.dumps()`.
+
+### Generated Files
+
+* config.json
+
+---
+
+## 16. pandas_explore.py
+
+Used Pandas DataFrames for data analysis tasks like filtering, grouping, averages, and sorting.
+Also explored `groupby()`, `sort_values()`, and `nlargest()`.
+
+---
+
+## 17. fraction_class.py
+
+Created a custom Fraction class using dunder methods such as `__add__`, `__eq__`, and `__lt__`.
+Implemented fraction arithmetic and simplification using `math.gcd()`.
+
+---
+
+## 18. inventory.py
+
+Built a mini inventory management system using OOP and CSV file handling.
+Added features like product searching, total inventory value calculation, saving, and loading data.
+
+### Generated Files
+
+* inventory.csv
+
+---
+
+# How to Run the Project
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/noopursingh888/aiml-crash-noopur.git
+```
+
+---
+
+## 2. Open the Project Folder
+
+```bash
+cd aiml-crash-noopur
+```
+
+---
+
+## 3. Activate Virtual Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 4. Install Required Packages
+
+```bash
+pip install pandas
+```
+
+---
+
+## 5. Run Any Python File
+
+Example:
+
+```bash
+python pandas_explore.py
+```
+
+You can also run:
+
+```bash
+python inventory.py
+python fraction_class.py
+python calculator.py
+python contact_book.py
+```
+
+---
+
+# Example Outputs
+
+## Fraction Class
+
+```bash
+1/2 + 1/4 = 3/4
+1/2 == 2/4 : True
+```
+
+---
+
+## Inventory System
+
+```bash
+Total Inventory Value:
+108000
+```
+
+---
+
+## Even Odd Checker
+
+```bash
+Enter a number: 8
+8 is even.
+```
+
+---
+
+# .gitignore
+
+This repository includes a `.gitignore` file to avoid uploading unnecessary files and folders such as:
+
+```bash
+venv/
+__pycache__/
+```
+
+---
+
+# What I Learned
+
+Through these tasks, I practiced:
+
+* Python Fundamentals
+* Loops & Conditionals
+* Functions
+* Dictionaries & Lists
+* Object-Oriented Programming
+* File Handling
+* CSV & JSON Operations
+* Pandas Data Analysis
+* List Comprehensions
+* Type Hints
+* Dunder Methods
+* Git & GitHub Workflow
+* Project Structuring
+
+---
+
+# Author
+
+Noopur Singh

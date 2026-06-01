@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/Python-3-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 # AIML Crash Course - Noopur Singh
 # Python Practice Repository — Day 1 to Day 5
 

@@ -320,6 +320,26 @@ Through these tasks, I practiced:
 * Project Structuring
 
 ---
+# Sales Data Analysis Project
+
+## Overview
+This project analyzes sales data using Pandas and SQL.
+
+## Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- SQLite
+
+## Features
+- Data Cleaning
+- GroupBy Analysis
+- Pivot Tables
+- Visualizations
+- SQL Queries
+
+## Project Structure
 
 # Author
 

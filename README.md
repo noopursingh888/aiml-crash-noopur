@@ -50,7 +50,10 @@ aiml-crash-noopur/
 ├── fraction_class.py
 ├── inventory.py
 ├── inventory.csv
-│
+│├── data/
+├── notebooks/ 
+├── sql/ 
+├── visuals/
 ├── README.md
 └── .gitignore
 ```
@@ -188,15 +191,55 @@ Created a custom Fraction class using dunder methods such as `__add__`, `__eq__`
 Implemented fraction arithmetic and simplification using `math.gcd()`.
 
 ---
-
 ## 18. inventory.py
 
-Built a mini inventory management system using OOP and CSV file handling.
-Added features like product searching, total inventory value calculation, saving, and loading data.
+Built a mini inventory management system using:
 
-### Generated Files
+* OOP
+* CSV file handling
 
-* inventory.csv
+Features include:
+
+* product searching
+* inventory value calculation
+* saving/loading data
+
+### Generated File
+
+* `inventory.csv`
+
+---
+# Sales Data Analysis Project
+
+## Overview
+
+This project analyzes sales data using:
+
+* Pandas
+* SQL
+* Matplotlib
+* Seaborn
+
+---
+
+## Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* SQLite
+
+---
+
+## Features
+
+* Data Cleaning
+* GroupBy Analysis
+* Pivot Tables
+* Data Visualization
+* SQL Queries
+* Business Insights
 
 ---
 

@@ -384,6 +384,28 @@ This project analyzes sales data using Pandas and SQL.
 
 ## Project Structure
 
+# E-Commerce Sales Performance Analysis
+
+## Dataset
+Brazilian E-Commerce Public Dataset by Olist
+
+## Tools
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Project Workflow
+1. Data Loading
+2. Data Cleaning
+3. EDA
+4. Visualization
+5. Business Insights
+
+## Key Findings
+...
+
 # Author
 
 Noopur Singh

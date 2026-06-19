@@ -270,6 +270,75 @@ python pandas_explore.py
 ```
 
 ---
+# Linear Regression Practical Tasks
+
+## Overview
+This project was completed as part of the AI/ML Internship Program. The objective was to build and evaluate Linear Regression models using the California Housing Dataset and analyze their performance using different evaluation metrics.
+
+## Dataset
+California Housing Prices Dataset
+
+Target Variable:
+- median_house_value
+
+## Tasks Completed
+
+### Task 1: Baseline Linear Regression Model
+- Loaded and preprocessed the dataset.
+- Handled missing values.
+- Encoded categorical features.
+- Split data into training and testing sets.
+- Trained a Linear Regression model.
+- Generated predictions.
+- Evaluated model using:
+  - MSE
+  - RMSE
+  - MAE
+  - R² Score
+- Created Actual vs Predicted comparison table.
+- Visualized Actual vs Predicted values.
+
+### Task 2: One-Feature vs Multi-Feature Models
+- Built Model A using a single feature.
+- Built Model B using multiple features.
+- Compared both models using:
+  - MSE
+  - RMSE
+  - MAE
+  - R² Score
+- Identified the better-performing model.
+
+### Task 3: Different Train-Test Splits
+- Evaluated Linear Regression using:
+  - 80/20 split
+  - 70/30 split
+  - 60/40 split
+- Recorded training and testing metrics.
+- Compared model stability across different splits.
+- Visualized test performance across splits.
+
+### Task 4: Metric Verification and Exploration
+- Manually calculated:
+  - MSE
+  - RMSE
+  - MAE
+  - R² Score
+- Verified results against Scikit-Learn metrics.
+- Calculated an additional metric:
+  - Explained Variance Score
+- Performed an artificial error experiment.
+- Analyzed the effect of large prediction errors on evaluation metrics.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-Learn
+- Jupyter Notebook
+
+## Results
+The multi-feature Linear Regression model outperformed the single-feature model and achieved better predictive performance. Metric verification confirmed the correctness of manually computed evaluation metrics.
 
 # Author
 

@@ -340,6 +340,127 @@ Target Variable:
 ## Results
 The multi-feature Linear Regression model outperformed the single-feature model and achieved better predictive performance. Metric verification confirmed the correctness of manually computed evaluation metrics.
 
+# Brazilian E-Commerce Delivery Delay Prediction
+
+## Project Overview
+
+This project analyzes the Brazilian E-Commerce Public Dataset to identify factors affecting delivery delays and predict whether an order will be delivered late using Machine Learning techniques.
+
+---
+
+## Objectives
+
+- Perform Data Audit and Cleaning
+- Conduct Exploratory Data Analysis (EDA)
+- Perform SQL Analysis using SQLite
+- Build a Logistic Regression model
+- Build an XGBoost model using Pipeline
+- Perform Cross Validation and Hyperparameter Tuning
+- Explain predictions using SHAP
+
+---
+
+## Dataset
+
+The following datasets were used:
+
+- olist_orders_dataset.csv
+- olist_order_payments_dataset.csv
+- olist_customers_dataset.csv
+- olist_order_items_dataset.csv
+- olist_products_dataset.csv
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQLite
+- Scikit-learn
+- XGBoost
+- SHAP
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```
+DAY-3/
+│
+├── Data/
+├── notebooks/
+│   ├── 01_Data_Audit_EDA.ipynb
+│   ├── 02_SQL_Analysis.ipynb
+│   └── 03_ML_Model.ipynb
+│
+├── sql/
+│   ├── ecommerce.db
+│   └── sql_queries.sql
+│
+├── visuals/
+├── report/
+│   └── Executive_Summary.md
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## Project Workflow
+
+1. Data Loading
+2. Data Cleaning
+3. Feature Engineering
+4. Data Merging
+5. Exploratory Data Analysis
+6. SQL Analysis
+7. Logistic Regression
+8. XGBoost Model
+9. Cross Validation
+10. Hyperparameter Tuning
+11. SHAP Explainability
+
+---
+
+## Results
+
+- Successfully analyzed customer order behavior.
+- Built Logistic Regression and XGBoost models.
+- Compared model performance using multiple evaluation metrics.
+- Improved model performance through GridSearchCV.
+- Explained predictions using SHAP.
+
+---
+
+## Business Recommendations
+
+- Monitor orders likely to be delayed.
+- Improve shipping efficiency in high-delay regions.
+- Enhance logistics planning using predictive analytics.
+- Notify customers proactively about potential delays.
+
+---
+
+## Future Improvements
+
+- Include seller and review datasets.
+- Deploy the model as a web application.
+- Automate prediction using real-time data.
+
+---
+
+## Author
+
+Mini Project – Phase 2
+
+Brazilian E-Commerce Delivery Delay Prediction
 # Author
 
 **Noopur Singh**
